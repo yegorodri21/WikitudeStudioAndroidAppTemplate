@@ -1,8 +1,15 @@
 package com.wikitude.wikitudestudioandroidapptemplate;
 
 
-public class SampleCamActivity extends AbstractArchitectCamActivity {
-	
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+
+public class SampleCamActivity extends AbstractArchitectCamActivity  {
+
+
 	/**
 	 * path to the World index.html. Relative paths: Relative to assets-root folder, Absolute paths: Web-Url (http://...) or file-path
 	 */
@@ -27,7 +34,7 @@ public class SampleCamActivity extends AbstractArchitectCamActivity {
 	public int getArchitectViewId() {
 		return R.id.architectView;
 	}
-	
+
 	@Override
 	public String getWikitudeSDKLicenseKey() {
 		return WikitudeSDKConstants.WIKITUDE_SDK_KEY;
@@ -38,5 +45,7 @@ public class SampleCamActivity extends AbstractArchitectCamActivity {
 		// you need to adjust this in case your POIs are more than 50km away from user here while loading or in JS code (compare 'AR.context.scene.cullingDistance')
 		return ArchitectViewHolderInterface.CULLING_DISTANCE_DEFAULT_METERS;
 	}
+
+
 
 }

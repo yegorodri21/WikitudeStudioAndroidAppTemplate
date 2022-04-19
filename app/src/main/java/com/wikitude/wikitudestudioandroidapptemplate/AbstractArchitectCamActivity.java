@@ -26,23 +26,23 @@ public abstract class AbstractArchitectCamActivity extends Activity implements A
     public void onCreate( final Bundle savedInstanceState ) {
         super.onCreate( savedInstanceState );
 
-		/* pressing volume up/down should cause music volume changes */
+        /* pressing volume up/down should cause music volume changes */
         this.setVolumeControlStream( AudioManager.STREAM_MUSIC );
 
-		/* set samples content view */
+        /* set samples content view */
         this.setContentView( this.getContentViewId() );
 
         this.setTitle( this.getActivityTitle() );
 
-		/* set AR-view for life-cycle notifications etc. */
+        /* set AR-view for life-cycle notifications etc. */
         this.architectView = (ArchitectView)this.findViewById( this.getArchitectViewId()  );
 
-		/* pass SDK key if you have one, this one is only valid for this package identifier and must not be used somewhere else */
+        /* pass SDK key if you have one, this one is only valid for this package identifier and must not be used somewhere else */
         final ArchitectStartupConfiguration config = new ArchitectStartupConfiguration();
         config.setLicenseKey(getWikitudeSDKLicenseKey());
         config.setFeatures(ArchitectStartupConfiguration.Features.ImageTracking);
 
-		/* first mandatory life-cycle notification */
+        /* first mandatory life-cycle notification */
         this.architectView.onCreate( config );
 
 

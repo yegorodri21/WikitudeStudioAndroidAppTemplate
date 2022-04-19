@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesFragment"
+    android:background="@mipmap/fondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginBottom="0dp"
+        android:foreground="@color/colorBlanco"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:src="@drawable/logogeneral"
+        android:translationY="2dp" />
+
+    <ScrollView
+        style="@android:style/Widget.Material.Light.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="638dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="0dp"
+        android:alwaysDrawnWithCache="true"
+        android:animateLayoutChanges="true"
+        android:animationCache="true"
+        android:fadeScrollbars="true"
+        android:fillViewport="true"
+        android:filterTouchesWhenObscured="true"
+        android:fitsSystemWindows="true"
+        android:focusableInTouchMode="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarDefaultDelayBeforeFade="2000"
+        android:scrollbarStyle="outsideOverlay"
+        android:soundEffectsEnabled="true"
+        android:theme="@style/AppBaseTheme"
+        android:verticalScrollbarPosition="right"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Funciones"
+                android:textColor="#0C0C0C"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="380sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="El departamento está integrado por una profesional en psicología clínica, un equipo docente y un equipo de estudiantes que trabajan conjuntamente para garantizar el bienestar de los integrantes de la comunidad educativa."
+                android:textAlignment="viewStart"
+                android:textColor="#0E0E0E"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="20sp"
+                android:text="Organigrama"
+                android:textColor="#050505"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:src="@drawable/organigrama" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Servicios"
+                android:textColor="#121010"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="1. Orientación psicológica, vocacional y profesional."
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="2. Manejo de crisis personales, familiares y/o académicas"
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="3. Información de las carreras y cursos de capacitación que oferta el Instituto Superior Tecnológico Loja."
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="4. Alternativas para evitar el abandono de estudios: cambios de horario, paralelo, análisis socioeconómico, entre otras."
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="5. Sistematización de la información médica, socioeconómica y psicológica de los estudiantes."
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="6. Gestión de ayudas económicas y/o becas."
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text=" 7. Proyectos, programas y/o talleres de prevención y promoción de salud física y mental."
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="8. Seguimiento y acompañamiento en casos de enfermedad física y/o mental, en casos de inclusión y casos de vulnerabilidad."
+                android:textColor="#090909"
+                android:translationX="15sp" />
+
+            <TextView
+                android:id="@+id/contactos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="CONTACTOS"
+                android:textColor="#0E0E0E"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:translationX="10sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Nombre : Gabriela Plaza Psic.Cli"
+                android:textColor="#0A0A9C"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Dirección: Calle Granada, vía a Turunuma, frente a Cafrilosa"
+                android:textColor="#0A0A9C"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Horario: Martes a Jueves 08h00 a 13H00 de 15H00 a18H00"
+                android:textColor="#0A0A9C"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Teléfono: 0982466520"
+                android:textColor="#0A0A9C"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Correo: bienestar@tecnologicoloja.edu.ec"
+                android:textColor="#0A0A9C"
+                android:textStyle="bold"
+                android:translationX="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

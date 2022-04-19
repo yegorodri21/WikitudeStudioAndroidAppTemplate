@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: :wikitudesdk:@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/82e89ee5a8008221704440e208ea8db8/transformed/wikitudesdk/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4a14563c73426bed956921af3683b02b/transformed/jetified-wikitudesdk/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/82e89ee5a8008221704440e208ea8db8/transformed/wikitudesdk/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/82e89ee5a8008221704440e208ea8db8/transformed/wikitudesdk/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/82e89ee5a8008221704440e208ea8db8/transformed/wikitudesdk/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4a14563c73426bed956921af3683b02b/transformed/jetified-wikitudesdk/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4a14563c73426bed956921af3683b02b/transformed/jetified-wikitudesdk/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4a14563c73426bed956921af3683b02b/transformed/jetified-wikitudesdk/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AppTemplate</string>
+    <string name="ISTL">AppTemplate</string>
     <string name="compass_accuracy_low">Please calibrate compass</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

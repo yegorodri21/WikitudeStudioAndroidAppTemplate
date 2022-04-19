@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/diegi/AndroidStudioProjects/WikitudeStudioAndroidAppTemplate/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/diegi/AndroidStudioProjects/WikitudeStudioAndroidAppTemplate/app/src/main/res/layout/sample_cam.xml" value="0.209375" />
+        <entry key="..\:/Users/diegi/AndroidStudioProjects/WikitudeStudioAndroidAppTemplate/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/diegi/AndroidStudioProjects/WikitudeStudioAndroidAppTemplate/app/src/main/res/layout/fragment_services.xml" value="0.209375" />
+        <entry key="..\:/Users/diegi/AndroidStudioProjects/WikitudeStudioAndroidAppTemplate/app/src/main/res/layout/sample_cam.xml" value="0.1" />
+        <entry key="..\:/Users/diegi/AndroidStudioProjects/WikitudeStudioAndroidAppTemplate/app/src/main/res/menu/bootom_nav_menu.xml" value="0.209375" />
       </map>
     </option>
   </component>
